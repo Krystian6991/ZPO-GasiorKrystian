@@ -1,0 +1,11 @@
+Zalety:
+
+wzorzec pozwala na ścisłe, formalne zdefiniowanie rozszerzalnych rodzin algorytmów dzięki wprowadzeniu interfejsu Strategia,
+bazuje na koncepcji kompozycji, a nie na dziedziczeniu — nie ma sztywnego powiązania między algorytmem a miejscem jego wykorzystania. Może on być wymieniany w trakcie działania programu,
+eliminacja instrukcji warunkowych,
+umożliwia wybór implementacji — algorytmy mogą rozwiązywać ten sam problem, lecz różnić się uzyskiwanymi korzyściami (zużycie pamięci, złożoność obliczeniowa, optymalizacja pod kątem pewnych szczególnych przypadków).
+możliwość niezależnego testowania klientów i strategii
+Wady:
+
+dodatkowy koszt komunikacji między klientem a strategią (wywołania metod, przekazywanie danych),
+zwiększenie liczby obiektów.

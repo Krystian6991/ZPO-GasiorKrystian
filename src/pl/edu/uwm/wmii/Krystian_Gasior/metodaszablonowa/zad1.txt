@@ -1,0 +1,2 @@
+W tym wzorcem spotkałam się gdy musiałem zaimplementować importer kodu sql do bazy danych. Początkowo była to baza MySQL,
+natomiast gdy pojawiła się potrzeba rozszerzenia tego o Postgres wprowadziłam metodę szablonową, aby kod był rozszerzalny.

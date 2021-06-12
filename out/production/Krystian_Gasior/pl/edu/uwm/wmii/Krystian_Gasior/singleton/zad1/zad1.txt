@@ -1,0 +1,1 @@
+Singleton zapewnia nam jedną instancję danej klasy w całej aplikacji. Można użyć go do obiektu komunikującego się z bazą danych.

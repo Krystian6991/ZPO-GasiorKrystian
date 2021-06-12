@@ -1,0 +1,1 @@
+Można zastosować leniwą inicjalizację (lazy initialization). Implementacja została wykorzystana w zadaniu 3.
